@@ -1,0 +1,19 @@
+### VINIT KUMAR ####
+####################
+
+-built using pretrained model
+-model is loaded via opencv dnn module
+-used mobilenet single shot detector as object detection method
+-trained for 20 objects (we are considering 14 out of it)
+-Whenever a object is detected it makes a list and store the label of that object and when 30 labels get filled in the list then the mode is calculated and object detected is said by the system via pyttsx library
+-Object detection and Object name calling is done simultaneously by this program.
+
+Procedure
+-run final_obj_detection.py file for the object detection in real time
+
+Requirements:
+-OpenCV
+-imutils
+-pyttsx
+-statistics
+
